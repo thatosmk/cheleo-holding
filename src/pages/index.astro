@@ -1,57 +1,108 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Welcome to Astro.">
-  <div class="mb-8 bg-slate-800">
-    <div class="sm:pt-4">
-      <div class="container mx-auto relative">
-        <div class="mx-8 grid md:grid-cols-2 md:gap-8">
+<Layout title="Cheleo - createive & strategic tech company">
+  <div class="bg-slate-800 pb-8">
+    <div class="pt-10">
+      <div class="container relative mx-auto rounded-3xl bg-slate-50">
+        <div class="px-4 sm:px-16 py-6 sm:py-9">
           <div class="lg:my-12 xl:my-24">
-            <h1 class="text-white font-extrabold text-4xl md:text-7xl lg:text-8xl xl:text-9xl py-4">
-				We <span class="text-columbia">Design</span>, <span class="text-lemon">Build</span>, <span class="text-pale">Ship</span>.
-			</h1>
-            <p class="mt-1 max-w-full sm:max-w-md mx-auto text-base text-white sm:text-lg md:mt-2 md:max-w-3xl">
-              Elevate your space now with serobe! discover a comprehensive residence management software that empowers you to efficiently oversee all facets of your residence operations.
+            <h1
+              class="text-4xl font-light text-gray-800 md:text-8xl"
+            >
+              Cheleo is a creative and strategic tech company offering flexible & niche solutions to challenges.
+            </h1>
+            <p
+              class="mx-auto text-base text-gray-800 sm:text-2xl font-light mt-10 pb-8"
+            >
+            In 2019, Cheleo was established by a duo, Thato Semoko and Mokgethwa Semoko. By merging their abilities, experiences and understanding, they were able to form an agency dedicated to providing top-notch tech services.
             </p>
-          </div>
-          <div class="order-first sm:order-last">
-            <!-- <Image src={guarantee} alt="serobe-hero-image" class="object-contain " /> -->
           </div>
         </div>
-        <div class="my-12 lg:my-32 mx-8">
-          <div class="lg:my-12 xl:my-24">
-            <h1 class="text-white text-center font-bold text-4xl md:text-5xl lg:text-6xl py-4">
-				Our work
-			</h1>
-            <p class="mt-1 text-center text-base text-white sm:text-lg md:mt-2">
-			  Stories of success and transformation from great partnerships.
-            </p>
-		</div>
-        <div class="mt-0">
-          <div class="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
-            <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
-              <div class="group relative">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                  <img src="https://cdn.serobe.co.za/assets/images/All%20in%20one%20residence%20management%20software%20_%20Serobe.png" alt="serobe residence management software" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                  <div>
-                    <h3 class="text-white font-bold text-lg sm:text-2xl lg:text-4xl ">
-                      <a href="https://serobe.co.za/?utm_source=cheleo&utm_campaign=work">
-                        <span aria-hidden="true" class="absolute inset-0"></span>
-                        Serobe - residence management software
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-        
-              <!-- More products... -->
+      </div>
+      <div class="container mx-auto relative lg:grid lg:grid-cols-3 lg:gap-10">
+        <div class="rounded-3xl mt-8 sm:mt-20 col-span-1">
+          <img src="https://images.pexels.com/photos/4064176/pexels-photo-4064176.jpeg?auto=compress&cs=tinysrgb&w=1920&h=768&dpr=1" class="relative object-contain rounded-3xl"/>
+        </div>
+        <div class="rounded-3xl bg-slate-50 mt-8 sm:mt-20 py-8 sm:py-16 px-4 sm:px-10 col-span-2">
+          <h1
+            class="text-2xl font-light text-gray-800 md:text-4xl"
+          >
+            Cheleo is a creative and strategic tech company offering flexible & niche solutions to challenges.
+          </h1>
+          <div class="mt-9 lg:mt-20 grid grid-cols-2">
+            <div class="text-left">
+              <h3 class="text-xl lg:text-4xl font-light">Products</h3>
+              <h4 class="text-4xl lg:text-8xl font-normal">4</h4>
+            </div>
+            <div class="text-left">
+              <h3 class="text-xl lg:text-4xl font-light">Active users</h3>
+              <h4 class="text-4xl lg:text-8xl font-normal">400</h4>
+            </div>
+          </div>
+          <div class="mt-9 lg:mt-20 grid grid-cols-2">
+            <div class="text-left">
+              <h3 class="text-xl lg:text-4xl font-light">Office</h3>
+              <h4 class="text-4xl lg:text-8xl font-normal">Remote</h4>
+            </div>
+            <div class="text-left">
+              <h3 class="text-xl lg:text-4xl font-light">Location</h3>
+              <h4 class="text-4xl lg:text-8xl font-normal">Joburg</h4>
             </div>
           </div>
         </div>
       </div>
+        <div class="hidden">
+          <div class="lg:my-12 xl:my-24">
+            <h1
+              class="py-4 text-center text-4xl font-bold text-white md:text-5xl lg:text-6xl"
+            >
+              Our products
+            </h1>
+            <p class="mt-1 text-center text-base text-white sm:text-lg md:mt-2">
+              Stories of success and transformation from great partnerships.
+            </p>
+          </div>
+          <div class="mt-0">
+            <div
+              class="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8"
+            >
+              <div
+                class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8"
+              >
+                <div class="group relative">
+                  <div
+                    class="aspect-h-1 aspect-w-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80"
+                  >
+                    <img
+                      src="https://cdn.serobe.co.za/assets/images/All%20in%20one%20residence%20management%20software%20_%20Serobe.png"
+                      alt="serobe residence management software"
+                      class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                    />
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3
+                        class="text-lg font-bold text-white sm:text-2xl lg:text-4xl"
+                      >
+                        <a
+                          href="https://serobe.co.za/?utm_source=cheleo&utm_campaign=work"
+                        >
+                          <span aria-hidden="true" class="absolute inset-0"
+                          ></span>
+                          Serobe - residence management software
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- More products... -->
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-  </div>	
+  </div>
 </Layout>
